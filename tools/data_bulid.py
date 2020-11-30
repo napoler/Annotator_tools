@@ -63,7 +63,11 @@ def save_data(data,file="data.txt"):
         for it in data:
             for w,m in it:
                 # print(m,w)
-                f1.write(w+" "+m+"\n")
+                if w == m :
+                    f1.write("  "+m+"\n")
+                    pass
+                else:
+                    f1.write(w+" "+m+"\n")
             # print("end\n\n\n\n")
             f1.write("\n")
 
