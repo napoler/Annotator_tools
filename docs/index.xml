@@ -14,13 +14,24 @@
     
     <item>
       <title>Annotator_tools</title>
-      <link>./post/2020-11-30-annotator_tools/</link>
+      <link>./post/2020-11-30-annotator_tools-copy/</link>
       <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>./post/2020-11-30-annotator_tools/</guid>
+      <guid>./post/2020-11-30-annotator_tools-copy/</guid>
       <description>关于Annotator tools 一个将cnns文件转化为标记训练数据的小工具
 Github：
 https://github.com/napoler/Annotator_tools</description>
+    </item>
+    
+    <item>
+      <title>使用帮助</title>
+      <link>./post/2020-11-30-%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>./post/2020-11-30-%E4%BD%BF%E7%94%A8/</guid>
+      <description>使用帮助 下载
+   git clone https://github.com/napoler/Annotator_tools.git virtualenv ../env source ../env/bin/activate cd tools/ python data_bulid.py
+   输入对应cnns文件所在目录即可生成对应的训练目录 labels文件建议手动编辑即可</description>
     </item>
     
     <item>
