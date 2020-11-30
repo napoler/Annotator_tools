@@ -22,7 +22,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Docs" />
 
-  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="generator" content="Hugo 0.68.3" />
   <link rel="canonical" href="./demo/2017-03-05-math-sample/" />
   <link rel="alternate" href="index.xml" type="application/rss+xml" title="Docs">
   
@@ -137,67 +137,44 @@
   <div class="ui banner test ad" data-text="栏"></div>
       <article role="main" class="blog-post ui     container">
         <p>KaTeX can be used to generate complex math formulas. It supports in-line math using the <code>\\( ... \\)</code> delimiters, like this: \( E = mc^2 \). By default, it does <em>not</em> support in-line delimiters <code>$...$</code> because those occur too commonly in typical webpages. It supports displayed math using the <code>$$</code> or <code>\\[...\\]</code> delimiters, like this:</p>
-
 <p>Formula 1:
 $$
 \phi = \frac{(1+\sqrt{5})}{2} = 1.6180339887\cdots
 $$</p>
-
 <p>Formula 2: (same formula, different delimiter)
 \[
 \phi = \frac{(1+\sqrt{5})}{2} = 1.6180339887\cdots
 \]</p>
-
-<p>Additional details can be found on <a href="https://github.com/Khan/KaTeX">GitHub</a> or on the <a href="http://tiddlywiki.com/plugins/tiddlywiki/katex/">Wiki</a>.
-</p>
-
+<p>Additional details can be found on <a href="https://github.com/Khan/KaTeX">GitHub</a> or on the <a href="http://tiddlywiki.com/plugins/tiddlywiki/katex/">Wiki</a>.</p>
 <h3 id="example-1">Example 1</h3>
-
 <p>If the text between $$ contains newlines it will rendered in display mode:</p>
-
 <pre><code>$$
 f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
 $$
-</code></pre>
-
-<p>$$
-f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+</code></pre><p>$$
+f(x) = \int_{-\infty}^\infty\hat f(\xi),e^{2 \pi i \xi x},d\xi
 $$</p>
-
 <h3 id="example-2">Example 2</h3>
-
 <pre><code>$$
 \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } }
 $$
-</code></pre>
-
-<p>$$
+</code></pre><p>$$
 \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } }
 $$</p>
-
 <h3 id="example-3">Example 3</h3>
-
 <pre><code>$$
 1 +  \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}+\cdots = \prod_{j=0}^{\infty}\frac{1}{(1-q^{5j+2})(1-q^{5j+3})}, \quad\quad \text{for }\lvert q\rvert&lt;1.
 $$
-</code></pre>
-
-<p>$$
+</code></pre><p>$$
 1 +  \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}+\cdots = \prod_{j=0}^{\infty}\frac{1}{(1-q^{5j+2})(1-q^{5j+3})}, \quad\quad \text{for }\lvert q\rvert&lt;1.
 $$</p>
-
 <h3 id="example-4">Example 4</h3>
-
 <p>Remember, certain characters are rendered by markdown, so you may need to workaround those issues. You can find the complete list of KaTeX supported functions here: <a href="https://khan.github.io/KaTeX/docs/supported.html">https://khan.github.io/KaTeX/docs/supported.html</a></p>
-
 <p>For example, the <code>'</code> character can  be replaced with <code>^\prime</code>:</p>
-
 <p>$$
 G^\prime = G - u
 $$</p>
-
 <p>The <code>&quot;</code> character can  be replaced with <code>^{\prime\prime}</code>:</p>
-
 <p>$$
 G^{\prime\prime} = G^\prime - v
 $$</p>

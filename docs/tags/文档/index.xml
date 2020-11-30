@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Docs</title>
-    <link>./post/</link>
-    <description>Recent content in Posts on Docs</description>
+    <title>文档 on Docs</title>
+    <link>./tags/%E6%96%87%E6%A1%A3/</link>
+    <description>Recent content in 文档 on Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>youremail@domain.com (Some Person)</managingEditor>
     <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Mon, 30 Nov 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="./post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="./tags/%E6%96%87%E6%A1%A3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

@@ -22,7 +22,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Docs" />
 
-  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="generator" content="Hugo 0.68.3" />
   <link rel="canonical" href="./demo/2017-03-20-photoswipe-gallery-sample/" />
   <link rel="alternate" href="index.xml" type="application/rss+xml" title="Docs">
   
@@ -137,7 +137,6 @@
   <div class="ui banner test ad" data-text="栏"></div>
       <article role="main" class="blog-post ui     container">
         <p>Beautiful Hugo adds a few custom shortcodes created by <a href="https://www.liwen.id.au/heg/">Li-Wen Yip</a> and <a href="https://github.com/GjjvdBurg/HugoPhotoSwipe">Gert-Jan van den Berg</a> for making galleries with <a href="http://photoswipe.com">PhotoSwipe</a> .</p>
-
 <p>
 
 <div class="gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
@@ -241,25 +240,16 @@
     </div>
 </div>
 </p>
-
-<p></p>
-
 <h2 id="example">Example</h2>
-
 <p>The above gallery was created using the following shortcodes:</p>
-
 <pre><code>{{&lt; gallery caption-effect=&quot;fade&quot; &gt;}}
   {{&lt; figure thumb=&quot;-thumb&quot; link=&quot;/img/hexagon.jpg&quot; &gt;}}
   {{&lt; figure thumb=&quot;-thumb&quot; link=&quot;/img/sphere.jpg&quot; caption=&quot;Sphere&quot; &gt;}}
   {{&lt; figure thumb=&quot;-thumb&quot; link=&quot;/img/triangle.jpg&quot; caption=&quot;Triangle&quot; alt=&quot;This is a long comment about a triangle&quot; &gt;}}
 {{&lt; /gallery &gt;}}
 {{&lt; load-photoswipe &gt;}}
-</code></pre>
-
-<h2 id="usage">Usage</h2>
-
+</code></pre><h2 id="usage">Usage</h2>
 <p>For full details please see the <a href="https://github.com/liwenyip/hugo-easy-gallery/">hugo-easy-gallery GitHub</a> page. Basic usages from above are:</p>
-
 <ul>
 <li>Create a gallery with open and close tags <code>{{&lt; gallery &gt;}}</code> and <code>{{&lt; /gallery &gt;}}</code></li>
 <li><code>{{&lt; figure src=&quot;image.jpg&quot; &gt;}}</code> will use <code>image.jpg</code> for thumbnail and lightbox</li>

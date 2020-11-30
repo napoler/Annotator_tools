@@ -22,7 +22,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Docs" />
 
-  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="generator" content="Hugo 0.68.3" />
   <link rel="canonical" href="./demo/2017-03-07-bigimg-sample/" />
   <link rel="alternate" href="index.xml" type="application/rss+xml" title="Docs">
   
@@ -159,37 +159,22 @@
   <div class="ui banner test ad" data-text="栏"></div>
       <article role="main" class="blog-post ui     container">
         <p>The image banners at the top of the page are refered to as &ldquo;bigimg&rdquo; in this theme. They are optional, and one more more can be specified. If more than one is specified, the images rotate every 10 seconds. In the front matter, bigimgs are specified using an array of hashes.</p>
-
-<p></p>
-
 <p>A single bigimg can be specified in the front matter by the following YAML:</p>
-
 <pre><code>bigimg: [{src: &quot;/img/triangle.jpg&quot;, desc: &quot;Triangle&quot;}]
-</code></pre>
-
-<p>Multiple bigimgs can be specified in the front matter by the following YAML:</p>
-
+</code></pre><p>Multiple bigimgs can be specified in the front matter by the following YAML:</p>
 <pre><code>bigimg: [{src: &quot;/img/triangle.jpg&quot;, desc: &quot;Triangle&quot;}, 
          {src: &quot;/img/sphere.jpg&quot;, desc: &quot;Sphere&quot;}, 
          {src: &quot;/img/hexagon.jpg&quot;, desc: &quot;Hexagon&quot;}]
-</code></pre>
-
-<p>Also note that the description field is optional, and images could instead be specified by:</p>
-
+</code></pre><p>Also note that the description field is optional, and images could instead be specified by:</p>
 <pre><code>bigimg: [{src: &quot;/img/triangle.jpg&quot;}, 
          {src: &quot;/img/sphere.jpg&quot;}, 
          {src: &quot;/img/hexagon.jpg&quot;}]
-</code></pre>
-
-<p>The above YAML array of hashes were written in &ldquo;flow&rdquo; style. However when generating a new page or post with <code>hugo new post/mypost.md</code>, hugo may interpret the archetype for bigimg in the default YAML style. Defining multiple bigimg&rsquo;s complete with descriptions in this style would be specified by:</p>
-
+</code></pre><p>The above YAML array of hashes were written in &ldquo;flow&rdquo; style. However when generating a new page or post with <code>hugo new post/mypost.md</code>, hugo may interpret the archetype for bigimg in the default YAML style. Defining multiple bigimg&rsquo;s complete with descriptions in this style would be specified by:</p>
 <pre><code>bigimg: 
 - {src: &quot;/img/triangle.jpg&quot;, desc: &quot;Triangle&quot;}
 - {src: &quot;/img/sphere.jpg&quot;, desc: &quot;Sphere&quot;}
 - {src: &quot;/img/hexagon.jpg&quot;, desc: &quot;Hexagon&quot;}
-</code></pre>
-
-<p>Additional information can be found <a href="https://rhnh.net/2011/01/31/yaml-tutorial/">in this YAML tutorial</a>.</p>
+</code></pre><p>Additional information can be found <a href="https://rhnh.net/2011/01/31/yaml-tutorial/">in this YAML tutorial</a>.</p>
       </article>
 
 
